@@ -6,7 +6,7 @@ In order to run this example you need to have Node.js installed.
 
 ## Installation
 In order to use components fill gaps in components factory in App.vue:
-`accessTokenUrl`,`apiUrl`
+`accessTokenUrl`,`apiUrl` and `i18Settings`.
 
 ```bash
 pnpm install
