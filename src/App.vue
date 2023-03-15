@@ -3,6 +3,10 @@ import { provide} from "vue";
 import Maxio from '@maxio-com/self-service';
 
 let componentsFactory = new window.Maxio.Components({
+  i18nSettings: {
+       loadPath: 'https://link-to-your-translations-endpoint.com/translations/{{ns}}.json',
+       language: 'en',
+  },
   accessTokenUrl:
       'https://link-to-your-access-token-endpoint.com',
   onAuthenticationRequest: () => ({
