@@ -1,8 +1,8 @@
 <script setup>
 import { provide} from "vue";
-import Maxio from '@maxio-com/self-service';
+import {Components} from '@maxio-com/self-service';
 
-let componentsFactory = new window.Maxio.Components({
+let componentsFactory = new Components({
   accessTokenUrl:
       'https://link-to-your-access-token-endpoint.com',
   onAuthenticationRequest: () => ({

@@ -1,14 +1,14 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@maxio-com/self-service': ^1.7.1
+  '@maxio-com/self-service': 1.7.4
   '@vitejs/plugin-vue': ^4.0.0
   vite: ^4.1.0
   vue: ^3.2.45
   vue-router: '4'
 
 dependencies:
-  '@maxio-com/self-service': 1.7.1
+  '@maxio-com/self-service': 1.7.4
   vue: 3.2.47
   vue-router: 4.1.6_vue@3.2.47
 
@@ -514,8 +514,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: false
 
-  /@maxio-com/self-service/1.7.1:
-    resolution: {integrity: sha512-gQYFseA8q+c+gpKzjNpVhhgRt8sXvaexUWKTAD41IRUx+Q3MLPsrsgJstjrxNvcGETCnrxwzKv4nt/5FhDAZNg==}
+  /@maxio-com/self-service/1.7.4:
+    resolution: {integrity: sha512-6o6mqTzPt6bllQIXBK4DXNVPi+sPbg+dQfTK5gPsuMJByIms3kWSS2X6Fi+4jKrmzZyLk9JpDbpLxbQhgOeOgQ==}
     peerDependencies:
       react: ^18
       react-dom: ^18
@@ -584,7 +584,7 @@ packages:
       '@motionone/easing': 10.15.1
       '@motionone/types': 10.15.1
       '@motionone/utils': 10.15.1
-      tslib: 2.4.0
+      tslib: 2.5.0
     dev: false
 
   /@motionone/dom/10.15.5:
@@ -595,14 +595,14 @@ packages:
       '@motionone/types': 10.15.1
       '@motionone/utils': 10.15.1
       hey-listen: 1.0.8
-      tslib: 2.4.0
+      tslib: 2.5.0
     dev: false
 
   /@motionone/easing/10.15.1:
     resolution: {integrity: sha512-6hIHBSV+ZVehf9dcKZLT7p5PEKHGhDwky2k8RKkmOvUoYP3S+dXsKupyZpqx5apjd9f+php4vXk4LuS+ADsrWw==}
     dependencies:
       '@motionone/utils': 10.15.1
-      tslib: 2.4.0
+      tslib: 2.5.0
     dev: false
 
   /@motionone/generators/10.15.1:
@@ -610,7 +610,7 @@ packages:
     dependencies:
       '@motionone/types': 10.15.1
       '@motionone/utils': 10.15.1
-      tslib: 2.4.0
+      tslib: 2.5.0
     dev: false
 
   /@motionone/types/10.15.1:
@@ -622,7 +622,7 @@ packages:
     dependencies:
       '@motionone/types': 10.15.1
       hey-listen: 1.0.8
-      tslib: 2.4.0
+      tslib: 2.5.0
     dev: false
 
   /@popperjs/core/2.11.6:
