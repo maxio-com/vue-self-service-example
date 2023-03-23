@@ -1,14 +1,24 @@
 <script setup>
 import { provide} from "vue";
 import {Components} from '@maxio-com/self-service';
+import {ButtonSettings} from "./styles/Button.js";
+import {ColorPalette} from "./styles/ColorPallete.js";
 
 let componentsFactory = new Components({
+  i18nSettings: {
+    loadPath: 'https://staging-static.keen.io/ruc/en/{{ns}}.json',
+    language: 'en',
+  },
   accessTokenUrl:
-      'https://link-to-your-access-token-endpoint.com',
-  onAuthenticationRequest: () => ({
-    customHeader: 'customHeaderValue',
-  }),
-  apiUrl: 'https://link-to-your-api-endpoint.com',
+      'https://chargifyapiadaptermock.us-west-2.test.aws.keen.io/merchant/auth?customer=pine-solutions-demo',
+
+  apiUrl: 'https://selfservice.us-west-2.test.aws.keen.io/api',
+  theme:{
+    colors: ColorPalette,
+    components: {
+      Button: {...ButtonSettings, boxShadow: 'none'},
+    },
+  }
 });
 
 provide('componentsFactory', componentsFactory)
