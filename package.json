@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@maxio-com/self-service": "1.7.4",
+    "@maxio-com/self-service": "1.8.1",
     "vue": "^3.2.45",
     "vue-router": "4"
   },

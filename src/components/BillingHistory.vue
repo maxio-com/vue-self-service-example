@@ -5,6 +5,7 @@ const root = ref();
 
 onMounted(()=>{
   inject('componentsFactory').create('billing-history').render(root.value,{
+    billingHistory:{
     itemsPerPage: 5,
     paginationVariant:'pages',
     // paginationVariant:'simple',
@@ -16,7 +17,7 @@ onMounted(()=>{
       "total_amount",
       "amount_due",
       // "status"
-    ]
+    ]},
   });
 })
 
