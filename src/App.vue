@@ -12,7 +12,7 @@ let componentsFactory = new Components({
   accessTokenUrl:
       'https://chargifyapiadaptermock.us-west-2.test.aws.keen.io/merchant/auth?customer=pine-solutions-demo',
 
-  apiUrl: 'https://selfservice.us-west-2.test.aws.keen.io/api',
+  apiUrl: 'https://selfservice.maxio.com/api',
   theme:{
     colors: ColorPalette,
     components: {
