@@ -10,9 +10,9 @@ let componentsFactory = new Components({
     language: 'en',
   },
   accessTokenUrl:
-      'https://chargifyapiadaptermock.us-west-2.test.aws.keen.io/merchant/auth?customer=pine-solutions-demo',
+      'https://your.authentication.endpoint.com',
 
-  apiUrl: 'https://selfservice.staging.maxio.com/api',
+  apiUrl: 'https://selfservice.maxio.com/api',
   theme:{
     colors: ColorPalette,
     components: {
