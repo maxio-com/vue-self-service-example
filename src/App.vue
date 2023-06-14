@@ -10,7 +10,7 @@ let componentsFactory = new Components({
     language: 'en',
   },
   accessTokenUrl:
-      'https://your.authentication.endpoint.com',
+  'https://example.com/your-authentication-endpoint', // REPLACE WITH YOUR AUTHENTICATION ENDPOINT URL
 
   apiUrl: 'https://selfservice.maxio.com/api',
   theme:{
