@@ -12,7 +12,6 @@ let componentsFactory = new Components({
   accessTokenUrl:
   'https://example.com/your-authentication-endpoint', // REPLACE WITH YOUR AUTHENTICATION ENDPOINT URL
 
-  apiUrl: 'https://selfservice.maxio.com/api',
   theme:{
     colors: ColorPalette,
     components: {
